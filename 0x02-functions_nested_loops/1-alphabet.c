@@ -6,7 +6,7 @@
  * Return: void
  */
 
-int main(void)
+void main(int)
 {
 	char letter = 'a';
 
