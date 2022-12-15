@@ -5,6 +5,7 @@
  */
 int mul(int a, int b)
 {
-	a * b;
-	return (0);
+	int sum;
+	sum = a * b;
+	return (sum);
 }
