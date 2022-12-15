@@ -13,10 +13,11 @@ void print_numbers(void)
 	for ( n = 0; n <= 9; n++ ) 
 	{
 		sum = sum + n;
-
-		return (sum);
+		
+		_putchar("%d", sum);
 
 	}
+	_putchar("\n");
 }
 
 
