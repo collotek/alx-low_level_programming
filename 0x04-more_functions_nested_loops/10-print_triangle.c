@@ -27,8 +27,4 @@ void print_triangle(int size)
 	else
 		_putchar('\n');
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
 
