@@ -1,15 +1,20 @@
+#include <stdio.h>
 #include "main.h"
-/**
- * print_sign - check for digit
- * @n: n is an integer
- *
- * Return: 1 (if digit), 0 (if otherwise)
- */
 
+/**
+ * _isdigit -checks for digit 0-9
+ * @c: input integer
+ * Return: 1 if c is digit and 0 otherwise
+ */
 int _isdigit(int c)
 {
-	if (c >= '0' && c <= '9')
-		return (1);
-	else
-		return (0);
+	char num = '0';
+	int dgt = 0;
+
+	for (; num <= '9'; num++)
+	{
+		if (num == c)
+			dgt = 1;
+	}
+	return (dgt);
 }
