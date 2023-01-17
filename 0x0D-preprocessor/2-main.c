@@ -1,9 +1,11 @@
 #include <stdio.h>
 
-int main (void)
-
+/**
+ * main - prints name of file program was compiled
+ * Return: 0
+ */
+int main(void)
 {
-	_putchar("%s\n", __FILE__);
+	printf("%s\n", __FILE__);
 	return (0);
-
 }
