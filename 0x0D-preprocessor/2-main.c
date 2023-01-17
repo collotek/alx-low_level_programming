@@ -3,6 +3,7 @@
 int main (void)
 
 {
-	_putchar("%s\n", _FILE_);
+	_putchar("%s\n", __FILE__);
+	return (0);
 
 }
