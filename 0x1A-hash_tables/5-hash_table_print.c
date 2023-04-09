@@ -19,7 +19,7 @@ void hash_table_print(const hash_table_t *ht)
 	{
 		if (ht->array[j] != NULL)
 		{
-			if (comma_flag == 1)
+			if (flag == 1)
 				printf(", ");
 
 			node = ht->array[j];
